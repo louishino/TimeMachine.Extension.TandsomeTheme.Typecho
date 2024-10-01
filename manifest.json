@@ -1,0 +1,30 @@
+{
+   "manifest_version": 3,
+   "name": "__MSG_extName__",
+   "version": "1.0.0",
+   "description": "__MSG_extDescription__",
+   "default_locale": "zh_CN",
+   "permissions": ["storage", "webRequest", "contextMenus", "http://*/*", "https://*/*"],
+   
+   "background": {
+      "service_worker": "js/background.js"
+   },
+   
+   "action": {
+      "default_icon": {
+         "16": "assets/logo_24x24.png",
+         "48": "assets/logo.png",
+         "128": "assets/logo.png"
+      },
+      "default_title": "__MSG_actionTitle__",
+      "default_popup": "html/popup.html"
+   },
+   
+   "icons": {
+      "16": "assets/logo.png",
+      "48": "assets/logo.png",
+      "128": "assets/logo.png"
+   },
+   
+   "homepage_url": "http://www.ihewro.com"
+}
